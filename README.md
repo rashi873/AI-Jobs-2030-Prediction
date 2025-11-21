@@ -1,27 +1,37 @@
-# AI-Jobs-2030-Predictive Modeling (Regression Project)
+# 🚀 AI-Jobs-2030 — Predictive Modeling (Regression Project)
 Predicting Job Growth Rate in the AI-driven Future Workforce
 
-This project uses Machine Learning + Data Analytics to predict Tech Job Growth Rate by 2030 using Kaggle’s AI Jobs 2030 dataset.
-It includes EDA, feature engineering, model training, evaluation, XGBoost modeling, and a Power BI insights dashboard.
+This project uses **Machine Learning + Data Analytics** to predict **Tech Job Growth Rate by 2030** using the Kaggle **AI Jobs 2030** dataset.  
+It includes EDA, feature engineering, model training, model comparison, XGBoost modeling, and an interactive **Power BI insights dashboard**.
 
-🧠 Project Objective
+---
 
-✔ Analyze how AI impacts future jobs
-✔ Predict Tech_Growth_Factor (Job Growth Rate)
-✔ Identify high-risk & high-opportunity job sectors
-✔ Build ML models (Linear Regression, Random Forest, XGBoost)
-✔ Visualize insights using Power BI
-✔ Produce a deployable ML pipeline
+## 🧠 Project Objectives
 
-📊 Tech Stack
-Category	Tools
-Programming	Python
-Libraries	Pandas, NumPy, Scikit-Learn, XGBoost, Seaborn, Matplotlib
-Visualization	Power BI
-Model Saving	Pickle
-Version Control	Git + GitHub
+✔ Analyze how AI impacts future jobs  
+✔ Predict **Average Salary / Job Growth Rate**  
+✔ Identify high-risk & high-opportunity job sectors  
+✔ Build ML models (Linear Regression, Random Forest, XGBoost)  
+✔ Visualize insights using **Power BI**  
+✔ Produce a complete, deployable **ML pipeline**
 
-📂 Repository Structure
+---
+
+## 📊 Tech Stack
+
+| Category | Tools |
+|---------|-------|
+| **Programming** | Python |
+| **Libraries** | Pandas, NumPy, Scikit-Learn, XGBoost, Seaborn, Matplotlib |
+| **Visualization** | Power BI |
+| **Model Saving** | Pickle |
+| **Version Control** | Git + GitHub |
+
+---
+
+## 📂 Repository Structure
+
+
 AI-Jobs-2030-Prediction/
 │
 ├── data/
@@ -59,80 +69,87 @@ AI-Jobs-2030-Prediction/
 ├── LICENSE
 └── .gitignore
 
-📘 Project Workflow
 
-1️⃣ Data Collection & Preprocessing
+---
 
-Load Kaggle dataset
+## 📘 Project Workflow
 
-Handle missing values
+### **1️⃣ Data Collection & Preprocessing**
+- Load Kaggle dataset  
+- Handle missing values  
+- Encode categorical variables  
+- Scale numeric features  
+- Export cleaned dataset to `data/processed/`
 
-Encode categorical values
+---
 
-Scale numerical features
+### **2️⃣ Exploratory Data Analysis (EDA)**
+- Job category distribution  
+- Salary trends  
+- AI Exposure vs Job Growth  
+- Correlation heatmaps  
+- Outlier detection  
 
-Export cleaned dataset
+---
 
-2️⃣ Exploratory Data Analysis (EDA)
+### **3️⃣ Feature Engineering**
+- Target variable: **Average Salary / Job Growth Rate**  
+- Label Encoding for job titles & categories  
+- Standard Scaling for numeric columns  
+- New engineered features (ratios / interactions)  
+- Save final dataset → `ML/feature_engineered_data.csv`
 
-Job category distribution
+---
 
-Salary trends
+### **4️⃣ Model Training**
 
-AI Exposure vs Job Growth
-
-Correlation heatmaps
-
-Outlier detection
-
-3️⃣ Feature Engineering
-
-Target: Tech_Growth_Factor
-
-Label Encoding
-
-Standard Scaling
-
-New features (Interaction terms & ratios)
-
-Save engineered dataset → ML/feature_engineered_data.csv
-
-4️⃣ Model Training
 Models used:
-
-Linear Regression
-
-Random Forest Regressor
-
-XGBoost Regressor
+- **Linear Regression**
+- **Random Forest Regressor**
+- **XGBoost Regressor**
 
 Each model:
+- Trained using `train_test_split`
+- Evaluated using **MSE, RMSE, R²**
+- Saved into `ML/` folder for reuse
 
-Fit on training data
+---
 
-Evaluated using: MSE, RMSE, R²
+### **5️⃣ Model Comparison**
 
-Saved into ML folder
+| Model             | RMSE      | R² Score |
+|------------------|-----------|----------|
+| Linear Regression | 1.011451  | -0.005046 |
+| Random Forest     | 0.443290  | 0.806949 |
+| XGBoost           | 0.361838  | 0.871375 |
 
-5️⃣ Model Comparison
+📌 **XGBoost is the best-performing model.**
 
-Model	             RMSE	         R²
-Linear Regression	 1.011451	    -0.005046
-Random Forest	     0.443290	     0.806949
-XGBoost            0.361838	     0.871375
+---
 
-6️⃣ Power BI Dashboard
+### **6️⃣ Power BI Dashboard**
 
-Includes insights on:
+Insights include:
+- Fastest growing job sectors  
+- AI risk vs opportunity for each job role  
+- Salary distribution visualization  
+- Predictions vs actuals comparison  
+- Top 10 future-proof careers  
 
-Job sectors with highest growth
+File is included in `dashboard/PowerBI.pbix`.
 
-AI risk level by industry
+---
 
-Salary distribution
+## 📦 Installation
 
-Predictions vs actuals
+### Clone the Repository
+```sh
+git clone https://github.com/rashi873/AI-Jobs-2030-Prediction.git
 
-Top 10 future-proof jobs
+⭐ Support
+
+If you like this project, please give it a star ⭐ on GitHub!
+It helps more people discover the repo and supports my work.
+cd AI-Jobs-2030-Prediction
 
 ⭐ If you like this project, give it a star on GitHub!
