@@ -139,11 +139,6 @@ File is included in `dashboard/PowerBI.pbix`.
 
 ---
 
-## 📦 Installation
-
-### Clone the Repository
-```sh
-git clone https://github.com/rashi873/AI-Jobs-2030-Prediction.git
 
 ⭐ Support
 
@@ -151,4 +146,4 @@ If you like this project, please give it a star ⭐ on GitHub!
 It helps more people discover the repo and supports my work.
 cd AI-Jobs-2030-Prediction
 
-⭐ If you like this project, give it a star on GitHub!
+
