@@ -24,7 +24,6 @@ It includes EDA, feature engineering, model training, model comparison, XGBoost 
 | **Programming** | Python |
 | **Libraries** | Pandas, NumPy, Scikit-Learn, XGBoost, Seaborn, Matplotlib |
 | **Visualization** | Power BI |
-| **Model Saving** | Pickle |
 | **Version Control** | Git + GitHub |
 
 ---
