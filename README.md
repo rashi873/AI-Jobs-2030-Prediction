@@ -34,39 +34,40 @@ It includes EDA, feature engineering, model training, model comparison, XGBoost 
 AI-Jobs-2030-Prediction/
 │
 ├── data/
-│   ├── raw/               
-│   ├── processed/         
+│   ├── raw/
+│   └── processed/
 │
 ├── notebooks/
 │   ├── 01_EDA.ipynb
 │   ├── 02_Feature_Engineering.ipynb
 │   ├── 03_Model_Training.ipynb
-│   ├── 04_Model_Comparison.ipynb
+│   └── 04_Model_Comparison.ipynb
 │
 ├── ML/
 │   ├── feature_engineered_data.csv
 │   ├── linear_regression_model.pkl
 │   ├── random_forest_model.pkl
 │   ├── xgboost_model.pkl
-│   ├── model_comparison.csv
+│   └── model_comparison.csv
 │
 ├── dashboard/
-│   ├── PowerBI.pbix
+│   └── PowerBI.pbix
 │
 ├── src/
 │   ├── data_preprocessing.py
 │   ├── feature_engineering.py
 │   ├── train_model.py
-│   ├── evaluate_model.py
+│   └── evaluate_model.py
 │
 ├── results/
 │   ├── plots/
-│   ├── predictions.csv
+│   └── predictions.csv
 │
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
 └── .gitignore
+
 
 
 ---
