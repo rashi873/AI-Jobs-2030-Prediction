@@ -1,1 +1,138 @@
-# AI-Jobs-2030-Prediction
+# AI-Jobs-2030-Predictive Modeling (Regression Project)
+Predicting Job Growth Rate in the AI-driven Future Workforce
+
+This project uses Machine Learning + Data Analytics to predict Tech Job Growth Rate by 2030 using Kaggle’s AI Jobs 2030 dataset.
+It includes EDA, feature engineering, model training, evaluation, XGBoost modeling, and a Power BI insights dashboard.
+
+🧠 Project Objective
+
+✔ Analyze how AI impacts future jobs
+✔ Predict Tech_Growth_Factor (Job Growth Rate)
+✔ Identify high-risk & high-opportunity job sectors
+✔ Build ML models (Linear Regression, Random Forest, XGBoost)
+✔ Visualize insights using Power BI
+✔ Produce a deployable ML pipeline
+
+📊 Tech Stack
+Category	Tools
+Programming	Python
+Libraries	Pandas, NumPy, Scikit-Learn, XGBoost, Seaborn, Matplotlib
+Visualization	Power BI
+Model Saving	Pickle
+Version Control	Git + GitHub
+
+📂 Repository Structure
+AI-Jobs-2030-Prediction/
+│
+├── data/
+│   ├── raw/               
+│   ├── processed/         
+│
+├── notebooks/
+│   ├── 01_EDA.ipynb
+│   ├── 02_Feature_Engineering.ipynb
+│   ├── 03_Model_Training.ipynb
+│   ├── 04_Model_Comparison.ipynb
+│
+├── ML/
+│   ├── feature_engineered_data.csv
+│   ├── linear_regression_model.pkl
+│   ├── random_forest_model.pkl
+│   ├── xgboost_model.pkl
+│   ├── model_comparison.csv
+│
+├── dashboard/
+│   ├── PowerBI.pbix
+│
+├── src/
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── train_model.py
+│   ├── evaluate_model.py
+│
+├── results/
+│   ├── plots/
+│   ├── predictions.csv
+│
+├── README.md
+├── requirements.txt
+├── LICENSE
+└── .gitignore
+
+📘 Project Workflow
+
+1️⃣ Data Collection & Preprocessing
+
+Load Kaggle dataset
+
+Handle missing values
+
+Encode categorical values
+
+Scale numerical features
+
+Export cleaned dataset
+
+2️⃣ Exploratory Data Analysis (EDA)
+
+Job category distribution
+
+Salary trends
+
+AI Exposure vs Job Growth
+
+Correlation heatmaps
+
+Outlier detection
+
+3️⃣ Feature Engineering
+
+Target: Tech_Growth_Factor
+
+Label Encoding
+
+Standard Scaling
+
+New features (Interaction terms & ratios)
+
+Save engineered dataset → ML/feature_engineered_data.csv
+
+4️⃣ Model Training
+Models used:
+
+Linear Regression
+
+Random Forest Regressor
+
+XGBoost Regressor
+
+Each model:
+
+Fit on training data
+
+Evaluated using: MSE, RMSE, R²
+
+Saved into ML folder
+
+5️⃣ Model Comparison
+
+Model	             RMSE	         R²
+Linear Regression	 1.011451	    -0.005046
+Random Forest	     0.443290	     0.806949
+XGBoost            0.361838	     0.871375
+
+6️⃣ Power BI Dashboard
+
+Includes insights on:
+
+Job sectors with highest growth
+
+AI risk level by industry
+
+Salary distribution
+
+Predictions vs actuals
+
+Top 10 future-proof jobs
+
+⭐ If you like this project, give it a star on GitHub!
