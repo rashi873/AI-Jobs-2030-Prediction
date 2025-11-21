@@ -41,7 +41,6 @@ AI-Jobs-2030-Prediction/
 │   ├── 01_EDA.ipynb
 │   ├── 02_Feature_Engineering.ipynb
 │   ├── 03_Model_Training.ipynb
-│   └── 04_Model_Comparison.ipynb
 │
 ├── ML/
 │   ├── feature_engineered_data.csv
