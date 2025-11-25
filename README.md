@@ -145,7 +145,16 @@ File is included in `dashboard/PowerBI.pbix`.
 
 ---
 
+## 🧾 Credits & Contact
 
+**👩‍💻 Author:** Rashi Bali  
+
+💼 **Role:** Data Analyst  
+📧 **Email:** rashibali77@gmail.com  
+🔗 **LinkedIn:** [Rashi Bali](https://www.linkedin.com/in/rashibali873/)  
+💻 **GitHub:** [github.com/rashi873](https://github.com/rashi873)
+
+---
 ⭐ Support
 
 If you like this project, please give it a star ⭐ on GitHub!
