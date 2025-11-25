@@ -1,4 +1,4 @@
-# 🚀 AI-Jobs-2030 — Predictive Modeling (Regression Project)
+# 🚀 AI-Jobs-2030 — Predictive Modeling (Python+Power BI)
 Predicting Job Growth Rate in the AI-driven Future Workforce
 
 This project uses **Machine Learning + Data Analytics** to predict **Tech Job Growth Rate by 2030** using the Kaggle **AI Jobs 2030** dataset.  
@@ -127,6 +127,12 @@ Each model:
 ---
 
 ### **6️⃣ Power BI Dashboard**
+
+## 📊 Dashboard Preview
+🔗 [Click here to view the dashboard screenshot 1](https://github.com/rashi873/AI-Jobs-2030-Prediction/blob/main/01_dashboard_screenshot.png)
+🔗 [Click here to view the dashboard screenshot 2](https://github.com/rashi873/AI-Jobs-2030-Prediction/blob/main/02_dashbooard_screenshot.png)
+🔗 [Click here to view the dashboard screenshot 3](https://github.com/rashi873/AI-Jobs-2030-Prediction/blob/main/03_dashboard_screenshot.png)
+
 
 Insights include:
 - Fastest growing job sectors  
